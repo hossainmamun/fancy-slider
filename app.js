@@ -77,7 +77,7 @@ const createSlider = () => {
   document.getElementById('duration').value = '';
   if (duration < 1000) {
     duration = 1000;
-    if (confirm("now way will be set 1s!!!")) {
+    if (confirm("The slide show will be set 1s!!!")) {
       sliders.forEach(slide => {
         let item = document.createElement('div')
         item.className = "slider-item";
